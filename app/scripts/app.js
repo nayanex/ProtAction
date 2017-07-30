@@ -1,7 +1,7 @@
 var app = angular.module('nikeStoreApp',['ui.bootstrap']);
 
 app.controller('carouselController', function($scope, dataService) {
-  $scope.myInterval = 1000;
+  $scope.myInterval = 0000;
   $scope.noWrapSlides = false;
   $scope.active = 0;
   var slides = $scope.slides = [];  

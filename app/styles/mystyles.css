@@ -5,8 +5,7 @@
 }
 
 .item-carousel {
-    max-width: 20%
-
+    
 }
 
 .monthly-payments {
@@ -44,7 +43,7 @@
 
 .row-content {
     margin: 0px 0px 0px 0px;
-    padding: 10% 0% 5% 0%;
+    padding: 7% 7% 2% 7%;
     border-bottom: 1px ridge;
 }
 
@@ -168,3 +167,33 @@ body {
     filter:alpha(opacity=0); /* IE support */
 }
 
+
+.square {
+    border-color: rgb(48, 48, 48);
+    color: rgb(234, 234, 234);
+    border-radius: 2px;
+    border-width: 0px;
+}
+
+.image-terrorist {
+    width:100%; height:270px;
+    border-color: #00349f;
+    color: rgb(234, 234, 234);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 6px;
+
+}
+
+.video-terrorist {
+    border-color: #00349f;
+    color: rgb(234, 234, 234);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 6px;
+
+}
+
+.content1 {
+    border-bottom: 2px solid #216aff;
+}
