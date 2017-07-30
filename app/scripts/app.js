@@ -1,6 +1,7 @@
 var app = angular.module('nikeStoreApp',['ui.bootstrap']);
 
 app.controller('carouselController', function($scope, dataService) {
+  $scope.terrorist = "images/loading.gif";
   $scope.myInterval = 2000;
   $scope.noWrapSlides = false;
   $scope.active = 0;
@@ -60,6 +61,9 @@ app.controller('carouselController', function($scope, dataService) {
   $('video').one('play', function () {
    //alert("afasdfas");
    slides.push({ 'image5' : "images/frame7.png"})
+   setTimeout(function() {
+    $scope.terrorist = "images/terrorist.jpg";
+}, 7500)
 });
 
 
